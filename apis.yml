@@ -1,8 +1,17 @@
 aid: hammoq
 name: Hammoq
-description: 'Hammoq is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'HAMMOQ is an AI-powered resale and recommerce platform that streamlines
+  the processing and listing of secondhand goods for resellers, liquidators, thrift
+  and retail organizations. Its Listing Solution turns photographs into marketplace-ready
+  listings: machine vision identifies each item''s attributes and category, generative
+  AI writes SEO-optimized titles and descriptions, and virtual assistants quality-check
+  each listing before it is published across resale marketplaces such as eBay, Poshmark,
+  Mercari, Amazon and Etsy. HAMMOQ also offers Sorting and Photography solutions and
+  an Infinity AI Chrome extension that autofills item specifications during listing.
+  The company raised a $24M round to tackle the growing retail-returns and used-goods
+  market. Surfaced as a portfolio company of Sierra Ventures and added to the API
+  Evangelist network for enrichment; HAMMOQ publishes no public API, developer portal,
+  or specification at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/hammoq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,32 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/62e4963b86728d1851e86445/63043bfcc756ab4d24291df5_image%209.png
 tags:
 - Company
 - Ai
+- Recommerce
+- Resale
+- Ecommerce
+- Marketplace
+- Machine Vision
+- Generative AI
+- Automation
+- Retail Returns
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://hammoq.com/
+  url: https://www.hammoq.com/
+- type: Blog
+  url: https://www.hammoq.com/blog/
+- type: Support
+  url: https://www.hammoq.com/contact
+- type: DomainSecurity
+  url: security/hammoq-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

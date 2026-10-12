@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/hammoq/integrations
+- https://n8n.io/integrations/hammoq/
+- https://composio.dev/toolkits/hammoq
+- https://monid.ai/tools/hammoq
+checked:
+- https://composio.dev/toolkits/hammoq
+- https://monid.ai/tools/hammoq
+- https://n8n.io/integrations/hammoq/
+- https://zapier.com/apps/hammoq/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
